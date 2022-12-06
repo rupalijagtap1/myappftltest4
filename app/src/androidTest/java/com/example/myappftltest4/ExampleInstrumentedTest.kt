@@ -21,4 +21,21 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.myappftltest4", appContext.packageName)
     }
+
+    @Test
+    fun passingTest1(){
+        assert(true)
+    }
+
+    @Test
+    fun passingTest2(){
+        assert(true)
+    }
+
+    @Test
+    fun passingTest3(){
+        assert(true)
+    }
+
+
 }
